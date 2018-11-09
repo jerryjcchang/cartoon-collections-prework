@@ -2,8 +2,8 @@ def roll_call_dwarves# code an argument here
   # Your code here
 end
 
-def summon_captain_planet# code an argument here
-  planeteer_calls.collect |element|
+def summon_captain_planet(array)
+  array.collect |element|
     "#{element}!"
 end
 
